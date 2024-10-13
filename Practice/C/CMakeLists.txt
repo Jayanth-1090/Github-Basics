@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.10)
 project(C_Practice)
 
 # Set the output Directory
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY $(CMAKE_BINARY_DIR)/Output)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Output)
 
 # Get all .c files in the current directory
 file(GLOB SOURCES "*.c")
